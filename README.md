@@ -10,7 +10,6 @@
 - 本システムでは巨大なパラメータを持つsequence-to-sequence(seq2seq)を系列変換応答生成モジュールとして使用している．seq2seqにはfairseqによって実装されているtransformerを用いている．
 
 ### ファイル構成
-リリースのリンクと紐づける
 
 |概要|ファイル名|
 | ---- | ------------ |
@@ -28,9 +27,9 @@
 
 ### 利用方法
 #### 実行環境
-- Python 3.8.
+- Python 3.8以降
 - fairseq==0.9.0
-- sentencepiece==0.1.91以上
+- sentencepiece==0.1.91以降
 
 #### 付属実行コードの利用方法(fine-tunedモデルの場合)
 pretrainedモデルを利用する場合はfine-tunedモデルファイルをpretrainedモデルファイルに置き換えて実行してください．
@@ -50,15 +49,6 @@ cat ilys_aoba_transformer_finetuned.pt-0* > ilys_aoba_transformer_finetuned.pt
 python run.py --model ilys_aoba_transformer_finetuned.pt --spm spm_10M_tweets.cr9999.bpe.32000.model --vocab ilys_aoba_transformer_vocab.zip
 ```
 
-
-## 引用
-引用される方は、以下のbibtexをご利用ください．
-予稿集がきたら追記でよさそう
-
-```@article{
-hogehoge
-}
-```
 
 
 ## 連絡先
