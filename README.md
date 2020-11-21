@@ -6,8 +6,8 @@
 
 
 ## 配布リソースに関する説明
-### ILYS-aoba-bot　系列変換応答生成モジュール
-- 本システムでは巨大なパラメータを持つsequence-to-sequence(seq2seq)を系列変換応答生成モジュールとして使用しています．Seq2seqにはfairseqによって実装されているtransformerを用いています．
+### ILYS-aoba-bot 系列変換応答生成モジュール
+本システムでは巨大なパラメータを持つsequence-to-sequence(seq2seq)を系列変換応答生成モジュールとして使用しています．Seq2seqには[fairseq](https://github.com/pytorch/fairseq)によって実装されているtransformerを用いています．
 
 ### ファイル構成
 
