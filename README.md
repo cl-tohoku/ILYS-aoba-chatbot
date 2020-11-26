@@ -50,7 +50,17 @@ cat ilys_aoba_transformer_finetuned.pt-0* > ilys_aoba_transformer_finetuned.pt
 python run.py --model ilys_aoba_transformer_finetuned.pt --spm spm_10M_tweets.cr9999.bpe.32000.model --vocab ilys_aoba_transformer_vocab.zip
 ```
 
+## 引用
+引用される方は，以下の文献を引用していただけると幸いです．
 
+```
+@inproceedings{ILYS-aoba-bot,
+author={藤原吏生 and 岸波洋介 and 今野颯人 and 佐藤志貴 and 佐藤汰亮 and 宮脇峻平 and 加藤拓真 and 鈴木潤 and 乾健太郎},
+title={ILYS aoba bot: 大規模ニューラル応答生成モデルとルールベースを統合した雑談対話システム},
+booktitle={第90回人工知能学会 言語・音声理解と対話処理研究会(第11回対話システムシンポジウム)},
+year={2020}
+}
+```
 
 ## 連絡先
 ご質問等ございましたら，riki.fujihara.s4@dc.tohoku.ac.jpまたはyosuke.kishinami.q8@dc.tohoku.ac.jpへお問い合わせください．
