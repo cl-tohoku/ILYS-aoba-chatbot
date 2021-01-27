@@ -29,10 +29,15 @@
 ### 利用方法
 #### 実行環境
 - Python 3.8以降
-- fairseq==0.9.0
 - sentencepiece==0.1.91以降
 - torch==1.5.1
 - torchvision==0.6.1
+
+fairseqについては，このリポジトリのクローン後，以下の手順で導入してください
+```
+cd ILYS-aoba-chat/fairseq
+pip install --editable .
+```
 
 #### 付属実行コードの利用方法(fine-tunedモデルの場合)
 pre-trainedモデルを利用する場合は`finetuned`を`pretrained`に置き換えて実行してください．
