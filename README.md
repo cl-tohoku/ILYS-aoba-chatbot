@@ -35,7 +35,7 @@
 
 fairseqについては，このリポジトリのクローン後，以下の手順で導入してください
 ```
-cd ILYS-aoba-chat/fairseq
+cd ILYS-aoba-chatbot/fairseq
 pip install --editable .
 ```
 
