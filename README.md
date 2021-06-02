@@ -54,7 +54,7 @@ unzip ilys_aoba_transformer_vocab.zip
 cat ilys_aoba_transformer_finetuned.pt-0* > ilys_aoba_transformer_finetuned.pt
 
 # モデルとコマンドラインで対話
-python run.py --model ilys_aoba_transformer_finetuned.pt --spm spm_10M_tweets.cr9999.bpe.32000.model --vocab ilys_aoba_transformer_vocab.zip
+python run.py --model ilys_aoba_transformer_finetuned.pt --spm spm_10M_tweets.cr9999.bpe.32000.model --vocab fairseq_vocab
 ```
 
 ## 引用
