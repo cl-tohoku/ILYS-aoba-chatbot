@@ -57,6 +57,12 @@ cat ilys_aoba_transformer_finetuned.pt-0* > ilys_aoba_transformer_finetuned.pt
 python run.py --model ilys_aoba_transformer_finetuned.pt --spm spm_10M_tweets.cr9999.bpe.32000.model --vocab fairseq_vocab
 ```
 
+## ライセンス
+The models are distributed under the terms of the [Creative Commons Attribution-ShareAlike 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+The source code is licensed MIT.
+
+
 ## 引用
 引用される方は，以下の文献を引用していただけると幸いです．
 
